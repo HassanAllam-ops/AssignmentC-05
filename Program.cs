@@ -1,5 +1,6 @@
 ﻿namespace AssignmentC_05
 {
+    #region Enums , Classes of Qustions
     #region Enum Q1
     enum WeekDays
     {
@@ -23,6 +24,7 @@
     }
     #endregion
 
+    #region Enum , Class Q3
     #region Enum Q3
     //[Flags]
     //enum Permissions : byte
@@ -40,6 +42,7 @@
     //
     //    public Permissions Permissions { get; set; }
     #endregion
+    #endregion
 
     #region Enum Q4
     enum Colors
@@ -49,7 +52,7 @@
         Blue
     }
     #endregion
-
+    #endregion
 
 
     internal class Program
